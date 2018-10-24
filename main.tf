@@ -3,7 +3,7 @@ provider "aws" {
   version = "~> 1.4"
   region = "us-east-1"
   assume_role {
-    role_arn     = "arn:aws:iam::337089113773:role/jenkins-slave-prof-role"
+    role_arn     = "arn:aws:iam::925313776336:role/jenkins-inst-prof-role"
   }
 }
 
