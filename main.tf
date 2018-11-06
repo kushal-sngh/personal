@@ -1,7 +1,7 @@
 provider "aws" {
   version = "~> 1.4"
   region  = "us-east-1"
-  profile = "default"
+  #profile = "default"
   assume_role {
     role_arn = "arn:aws:iam::337089113773:role/jenkins-slave-prof-role"
   }
