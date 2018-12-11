@@ -3,7 +3,7 @@ provider "aws" {
   region  = "us-east-1"
   #profile = "default"
   assume_role {
-    role_arn = "arn:aws:iam::337089113773:role/jenkins-slave-prof-role"
+    role_arn = "arn:aws:iam::304951274516:role/dns-deployment-role"
   }
 }
 resource "aws_security_group" "primary" {
